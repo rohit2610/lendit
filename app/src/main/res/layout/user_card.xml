@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="@drawable/home_user_card"
+    android:padding="8dp"
+    android:id="@+id/ll_user_card"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_card_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="Rohit Munjal is my name"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_card_user_phone"
+        android:text="99999999999"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_card_user_amount"
+        android:textSize="16sp"
+        android:text="10,000"
+        />
+
+
+</LinearLayout>
